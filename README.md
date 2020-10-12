@@ -18,8 +18,6 @@ To make the Wiring Diagram, I have use a awsome website [circuito.io](https://ww
 * Mini Pushbutton Switch - Qty: 1
 * 10K Ohm Resistor - Qty: 1
 
-
-
 ## Home assistant configuration
 ```
 climate:
@@ -54,14 +52,17 @@ climate:
 * FTK09NMVJU
 * FTX09NMVJU
 * FTK12NMVJU
-* FTX12NMVJU*
+* FTX12NMVJU (Tested with)
 * FTK18NMVJU
 * FTX18NMVJU
 * FTK24NMVJU
 * FTX24NMVJU
-Tested with *
+* AND A LOT MORE
 
 ### Compatible with AC remote:
+
+#### If the remote used for your Daikin AC remote Start With ARC or BRC, it should be compatible.
+
 * ARC480A1  * ARC480A11 * ARC480A21 * ARC480A31
 * ARC480A2  * ARC480A12 * ARC480A22 * ARC480A32
 * ARC480A3  * ARC480A13 * ARC480A23 * ARC480A33
@@ -70,8 +71,12 @@ Tested with *
 * ARC480A6  * ARC480A16 * ARC480A26 * ARC480A36
 * ARC480A7  * ARC480A17 * ARC480A27 * ARC480A37
 * ARC480A8  * ARC480A18 * ARC480A28
-* ARC480A9  * ARC480A19 * ARC480A29 
+* ARC480A9  * ARC480A19 * ARC480A29
 * ARC480A10 * ARC480A20 * ARC480A30
+* BRC073a4 * BRC073a5 * BRC073a7 * BRC1E62
+* BRC4C155 * BRC4C158 * BRC4C152 * BRC1C62
+* BRC7F634F * BRC7F635F
+* AND A LOT MORE
 
 ## Big thanks to
 
