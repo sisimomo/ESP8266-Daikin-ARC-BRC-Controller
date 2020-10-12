@@ -5,7 +5,7 @@ The project is about automating a Daikin AC. Using a NodeMCU ESP8266, you can co
 
 To make the Wiring Diagram, I have use a awsome website [circuito.io](https://www.circuito.io/app).
 
-[Wiring Diagram](Wiring Diagram.png)
+![Wiring Diagram](Wiring%20Diagram.png)
 
 ## Parts
 
