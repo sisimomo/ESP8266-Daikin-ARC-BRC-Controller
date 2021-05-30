@@ -1,4 +1,4 @@
-# NodeMCU ESP8266 - Daikin ARC Controller
+# NodeMCU ESP8266 - Daikin ARC/BRC Controller
 The project is about automating a Daikin AC. Using a NodeMCU ESP8266, you can control your AC with any MQTT compatible Home automation hub. I have use Home assistant.
 
 ## Wiring Diagram
