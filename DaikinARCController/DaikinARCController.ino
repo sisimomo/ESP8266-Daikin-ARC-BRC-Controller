@@ -285,7 +285,7 @@ void callbackARC(char * topic, byte * payload, unsigned int length) {
   } else if (actualTopic.equals("Temperature")) {
     Serial.print("Temperature : ");
     Serial.println(actualPayload.toInt());
-    daikinController.setMode(actualPayload.toInt());
+    daikinController.setTemp(actualPayload.toInt());
   } else if (actualTopic.equals("FanSpeed")) {
     Serial.print("FanSpeed : ");
     String fanSpeeds[] = { "Min", "Low", "Medium", "High", "Auto" };
@@ -327,7 +327,7 @@ void callbackBRC(char * topic, byte * payload, unsigned int length) {
   } else if (actualTopic.equals("Temperature")) {
     Serial.print("Temperature : ");
     Serial.println(actualPayload.toInt());
-    daikinController.setMode(actualPayload.toInt());
+    daikinController.setTemp(actualPayload.toInt());
   } else if (actualTopic.equals("FanSpeed")) {
     Serial.print("FanSpeed : ");
     String fanSpeeds[] = { "Low", "High" };
