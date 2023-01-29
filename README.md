@@ -1,3 +1,9 @@
+# DEPRECATED
+
+I no longer think this solution is the best solution to control your Daikin AC. Recently, [ESPHome release support for AC]( https://esphome.io/components/climate/climate_ir.html). Their solution is much more elegant and versatile. I strongly suggest you check out the project.
+
+https://esphome.io/
+
 # NodeMCU ESP8266 - Daikin ARC/BRC Controller
 The project is about automating a Daikin AC. Using a NodeMCU ESP8266, you can control your AC with any MQTT compatible Home automation hub. I have use Home assistant.
 
